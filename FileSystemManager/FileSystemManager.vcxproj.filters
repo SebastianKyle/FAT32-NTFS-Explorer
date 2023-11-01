@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\FAT32">
+      <UniqueIdentifier>{69aa1f35-1fe0-4d9e-9fc3-4ff336bf051c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NTFS">
+      <UniqueIdentifier>{b8dcaa56-47a0-47d6-84f0-4f5a5d4099da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FAT32">
+      <UniqueIdentifier>{03a1c0ed-b771-4cca-9ceb-d124f9da7f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NTFS\Attributes">
+      <UniqueIdentifier>{ded73256-6544-45b8-8ac4-36bbd1667ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NTFS">
+      <UniqueIdentifier>{e185fd38-1134-4a73-8fd7-4abbcbf15e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NTFS\Attributes">
+      <UniqueIdentifier>{43eb3ac7-64da-4be8-bc78-99ce83bc10ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VolumeAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdlibs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entry.h">
+      <Filter>Header Files\FAT32</Filter>
+    </ClInclude>
+    <ClInclude Include="FileEntry.h">
+      <Filter>Header Files\FAT32</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderEntry.h">
+      <Filter>Header Files\FAT32</Filter>
+    </ClInclude>
+    <ClInclude Include="RootFolder.h">
+      <Filter>Header Files\FAT32</Filter>
+    </ClInclude>
+    <ClInclude Include="SubDirEntry.h">
+      <Filter>Header Files\FAT32</Filter>
+    </ClInclude>
+    <ClInclude Include="FileRecord.h">
+      <Filter>Header Files\NTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderRecord.h">
+      <Filter>Header Files\NTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Record.h">
+      <Filter>Header Files\NTFS</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrBase.h">
+      <Filter>Header Files\NTFS\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrResident.h">
+      <Filter>Header Files\NTFS\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrNonResident.h">
+      <Filter>Header Files\NTFS\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrStdInfo.h">
+      <Filter>Header Files\NTFS\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrFileName.h">
+      <Filter>Header Files\NTFS\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="AttrData.h">
+      <Filter>Header Files\NTFS\Attributes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Source Files\FAT32</Filter>
+    </ClCompile>
+    <ClCompile Include="FileEntry.cpp">
+      <Filter>Source Files\FAT32</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderEntry.cpp">
+      <Filter>Source Files\FAT32</Filter>
+    </ClCompile>
+    <ClCompile Include="RootFolder.cpp">
+      <Filter>Source Files\FAT32</Filter>
+    </ClCompile>
+    <ClCompile Include="SubDirEntry.cpp">
+      <Filter>Source Files\FAT32</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrBase.cpp">
+      <Filter>Source Files\NTFS\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrResident.cpp">
+      <Filter>Source Files\NTFS\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrNonResident.cpp">
+      <Filter>Source Files\NTFS\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrStdInfo.cpp">
+      <Filter>Source Files\NTFS\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrFileName.cpp">
+      <Filter>Source Files\NTFS\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="AttrData.cpp">
+      <Filter>Source Files\NTFS\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>Source Files\NTFS</Filter>
+    </ClCompile>
+    <ClCompile Include="FileRecord.cpp">
+      <Filter>Source Files\NTFS</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderRecord.cpp">
+      <Filter>Source Files\NTFS</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
