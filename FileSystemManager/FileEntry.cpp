@@ -58,10 +58,11 @@ void FileEntry::printData()
 
 string FileEntry::getFileExtension()
 {
-	string extension = reinterpret_cast<const char*>(_rootDirEntry.DIR_Ext);
-	std::transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
+	string name = getName();
+	int dot = name.find('.');
+	string ext = name.substr(dot + 1, name.length() - dot);
 
-	return extension;
+	return ext;
 }
 
 
