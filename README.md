@@ -20,5 +20,11 @@ Clone project về, mở lên và chạy bằng visual studio. (Sử dụng USB 
 ## Demo
 ### Intro
 **FAT32**
-
+![Demo of FAT intro](./Demo/FATIntro.png "FAT Intro")
 **NTFS**
+![Demo of NTFS intro](./Demo/Intro.png "NTFS Intro")
+### Một số chức năng cơ bản
+*Áp dụng cho cả FAT32 và NTFS*
+![Commands](./Demo/Commands.png "Commands")
+![Commands2](./Demo/Commands2.png "Commands2")
+![FATCommands](./Demo/FATCommands.png "FATCommands")
