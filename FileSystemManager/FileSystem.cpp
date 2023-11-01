@@ -213,8 +213,8 @@ void FileSystem::printFSStat()
 		cout << "\n Sectors per clusters: " << VolumeAccess::getInstance()->getSecPerClus();
 		cout << "\n Reserved sectors: " << VolumeAccess::getInstance()->getReservedSector();
 		cout << "\n Total sectors in volume: " << VolumeAccess::getInstance()->getTotalSecs();
-		cout << "\n First cluster of $MFT:" << VolumeAccess::getInstance()->getMFTClus();
-		cout << "\n First cluster of $MFTMirr:" << VolumeAccess::getInstance()->getMFTMirrClus();
+		cout << "\n First cluster of $MFT: " << VolumeAccess::getInstance()->getMFTClus();
+		cout << "\n First cluster of $MFTMirr: " << VolumeAccess::getInstance()->getMFTMirrClus();
 		cout << "\n MFT record size: " << VolumeAccess::getInstance()->getBytesPerRecord();
 	}
 	else

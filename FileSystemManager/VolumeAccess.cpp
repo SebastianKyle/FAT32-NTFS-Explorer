@@ -152,7 +152,6 @@ void VolumeAccess::readBootSector()
 		{
 			bytesRead = 0;
 			DWORD pointer = SetFilePointer(_device, 0, NULL, FILE_BEGIN);
-			cout << "\n NTFS boot sector size: " << sizeof(NTFSBootSector);
 			ReadFile(_device, &_ntfsBootSector, sizeof(NTFSBootSector), &bytesRead, NULL);
 
 			_fileSystem = "NTFS";
@@ -172,9 +171,6 @@ void VolumeAccess::readBootSector()
 		{
 			_fileSystem = "FAT32";
 		}
-
-		//cout << "\n Size of boot sector: " << sizeof(_bootSector);
-		//memcpy_s(&_bootSector, sizeof(_bootSector), sector, sizeof(sector));
 	}
 }
 
@@ -217,7 +213,7 @@ void VolumeAccess::readFATsData()
 
 void VolumeAccess::readMFTFileRecord()
 {
-	cout << "\n Reading $MFT file...";
+	//cout << "\n Reading $MFT file...";
 
 	ULONGLONG firstClus = _ntfsBootSector.NBS_MFTClus;
 	_mftFileRecord = new BYTE[_bytesPerRecord];
