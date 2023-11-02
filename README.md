@@ -16,7 +16,7 @@ GV: **Lê Viết Long**
 * **clear**: clear màn hình
 * **fsstat**: hiện thị thông tin về hệ thống quản lý tập tin
 ## Cách sử dụng:
-Clone project về, mở lên và chạy bằng visual studio hoặc chạy file exe. (Sử dụng USB drive để test ứng dụng)
+Clone project về, mở lên và chạy bằng visual studio hoặc chạy file exe. (Sử dụng USB drive để test ứng dụng).
 Nếu test trên Local Drive (C, D) thì mở visual studio và chạy với quyền admin. (Khuyến cáo test trên Volume có dung lượng vừa phải)
 ## Demo
 ### Intro
